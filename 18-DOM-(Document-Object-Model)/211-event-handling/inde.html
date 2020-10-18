@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>211-event-handling </title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container px-5" id="container">
+
+        <h2 class="text-center mt-2" id="taitle">This is a heading</h2>
+
+        <ul class="list-group my-5" id="list">
+            <li class="list-group-item" name="list-item-one">One</li>
+            <li class="list-group-item">Two</li>
+            <li class="list-group-item">Three</li>
+        </ul>
+
+        <div>
+            <label for="name">What is your name?</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name">
+            <span class="small text-muted" id="show-name"></span>
+        </div>
+
+        <div class="my-5">
+            <label for="skills">Choose Your Skills</label>
+            <div class="form-check">
+                <input type="checkbox" name="skill" class="form-check-input" value="C Programming">
+                <label class="form-check-label">C Programming</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="skill" class="form-check-input" value="Java Programming">
+                <label class="form-check-label">Java Programming</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="skill" class="form-check-input" value="JavaScript">
+                <label class="form-check-label">JavaScript</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="skill" class="form-check-input" value="Python">
+                <label class="form-check-label">Python</label>
+            </div>
+            <p class="font-weight-bolder">Selected Skills:
+                <span class="text-info small" id="result"></span></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="../bootstrap/js/jQuary.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
